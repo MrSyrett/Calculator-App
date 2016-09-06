@@ -1,3 +1,5 @@
 $(document).ready(function(){
-   $(".window").text("Changed!");
+       $("#one").on('click', function(){
+              $(".window").text("1");
+       })
 });

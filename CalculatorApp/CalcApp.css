@@ -1,12 +1,12 @@
 body{
-    background-color: Black;
+    background-color: black;
     color: grey;
 }
-well{
-    height: 500px;
-    width: 20px;
+.window{
+    height: 50px;
+    width: 200px;
     background-color: blue;
-    text-align: right;
+    margin: 0 auto;
 }
 
 h1{
