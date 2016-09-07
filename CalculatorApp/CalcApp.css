@@ -3,10 +3,18 @@ body{
     color: grey;
 }
 .window{
-    height: 50px;
+    height: 60px;
     width: 200px;
-    background-color: blue;
+    background-color: gold;
+    font-size: 30px;
+    color: black;
+    padding: 10px;
     margin: 0 auto;
+    overflow: hidden;
+}
+
+.keys{
+    margin: 10px;
 }
 
 h1{
