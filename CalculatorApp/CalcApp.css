@@ -8,9 +8,9 @@ body{
     background-color: gold;
     font-size: 30px;
     color: black;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
     margin: 0 auto;
-    overflow: hidden;
+    word-wrap: break-word;
 }
 
 .keys{
