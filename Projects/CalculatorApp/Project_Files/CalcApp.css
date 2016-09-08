@@ -1,0 +1,57 @@
+@import 'https://fonts.googleapis.com/css?family=Didact+Gothic';
+
+body{
+    margin-top: 90px;
+    background-color: #E9BA40;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 26px;
+}
+.calculator{
+    background-color: #F1EAD7;
+    width: 300px;
+    padding: 40px 10px 10px 10px;
+    border-radius: 50px;
+}
+.window{
+    height: 60px;
+    width: 200px;
+    background-color: #E9BA40;
+    font-size: 30px;
+    color: #11221D;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    word-wrap: break-word;
+    box-shadow: inset 1px 1px 5px;
+}
+
+.keys{
+    margin: 0 auto;
+    width: 200px;
+}
+
+h1{
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    margin: 1px;
+    background-color: #11221D;
+    border: none;
+    color: #f1ead7;
+}
+
+.specialButton{
+    width: 56px;
+}
+
+#allClear, #clear{
+    background-color: #C74720;
+    color: #11221D;
+}
+
+#equal{
+    background-color: #5D9DAD;
+    color: #11221D;
+}
