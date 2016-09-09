@@ -22,6 +22,13 @@ $(document).ready(function(){
               $(".window").append(2);
        })
         $("#three").on('click', function(){
+        if ($("#add").hasClass("clicked") || $("#sub").hasClass("clicked") || $("#divi").hasClass("clicked") || $("#mult").hasClass("clicked")){
+              $(".window").text('');
+              $("#add").removeClass("clicked");
+              $("#sub").removeClass("clicked");
+              $("#divi").removeClass("clicked");
+              $("#mult").removeClass("clicked");
+        }
               $(".window").append(3);
        })
         $("#four").on('click', function(){
